@@ -39,8 +39,3 @@ gem_package "fluent-plugin-config-expander" do
   action :install
 end
 
-# refere-parserプラグインのインストール
-gem_package "fluent-plugin-referer-parser" do
-  gem_binary "/opt/td-agent/embedded/bin/fluent-gem"
-  action :install
-end
